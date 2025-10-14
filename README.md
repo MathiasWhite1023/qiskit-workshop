@@ -12,6 +12,8 @@ Este é um workshop introdutório sobre computação quântica usando Qiskit, co
 3. **Abra o notebook**: `notebooks/aula1_gerador_aleatorio.ipynb`
 4. **Comece a aprender!** 🎉
 
+> ⚠️ **IMPORTANTE para eventos**: Para economizar recursos, **pare o Codespace** quando terminar usando o menu "..." → "Stop Codespace"
+
 ### Opção 2: Instalação Local
 1. Clone este repositório:
    ```bash

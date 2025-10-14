@@ -48,7 +48,7 @@
     }
   },
   "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && echo '🚀 Ambiente Qiskit configurado com sucesso!' && echo '📚 Abra o notebook notebooks/aula1_gerador_aleatorio.ipynb para começar!'",
-  "postStartCommand": "echo '🔬 Codespace Qiskit Workshop ativo!' && echo '🌟 Pronto para explorar computação quântica!'",
+  "postStartCommand": "echo '🔬 Codespace Qiskit Workshop ativo!' && echo '🌟 Pronto para explorar computação quântica!' && echo '⚠️  IMPORTANTE: Pare o Codespace quando terminar para economizar horas!'",
   "remoteUser": "vscode",
   "forwardPorts": [8888, 8080],
   "portsAttributes": {
