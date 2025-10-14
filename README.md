@@ -15,7 +15,7 @@ Este é um workshop introdutório sobre computação quântica usando Qiskit, co
 ### Opção 2: Instalação Local
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/qiskit-workshop.git
+   git clone https://github.com/MathiasWhite1023/qiskit-workshop.git
    cd qiskit-workshop
    ```
 2. Instale as dependências:
