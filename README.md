@@ -1,6 +1,6 @@
 # 🌟 Qiskit Workshop - Computação Quântica
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/seu-usuario/qiskit-workshop)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](#)
 
 Este é um workshop introdutório sobre computação quântica usando Qiskit, configurado para funcionar diretamente no **GitHub Codespaces** - sem necessidade de instalação local!
 
@@ -15,7 +15,7 @@ Este é um workshop introdutório sobre computação quântica usando Qiskit, co
 ### Opção 2: Instalação Local
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/qiskit-workshop.git
+   git clone https://github.com/SEU-USUARIO/qiskit-workshop.git
    cd qiskit-workshop
    ```
 2. Instale as dependências:
