@@ -1,6 +1,6 @@
 # 🌟 Qiskit Workshop - Computação Quântica
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](#)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MathiasWhite1023/qiskit-workshop)
 
 Este é um workshop introdutório sobre computação quântica usando Qiskit, configurado para funcionar diretamente no **GitHub Codespaces** - sem necessidade de instalação local!
 
