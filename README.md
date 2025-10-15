@@ -9,7 +9,7 @@ Este é um workshop introdutório sobre computação quântica usando Qiskit, co
 ### Opção 1: GitHub Codespaces (Recomendado)
 1. **Clique no botão "Open in GitHub Codespaces" acima**
 2. **Aguarde o ambiente carregar** (aproximadamente 2-3 minutos)
-3. **Abra o notebook**: `notebooks/aula1_gerador_aleatorio.ipynb`
+3. **Abra o notebook do Dia 1**: `notebooks/dia1_exercicio_guiado.ipynb`
 4. **Comece a aprender!** 🎉
 
 > ⚠️ **IMPORTANTE para eventos**: Para economizar recursos, **pare o Codespace** quando terminar usando o menu "..." → "Stop Codespace"
@@ -33,32 +33,85 @@ Este é um workshop introdutório sobre computação quântica usando Qiskit, co
 
 ```
 qiskit-workshop/
-├─ .devcontainer/                    # ⚙️ Configuração do Codespace
-│   └─ devcontainer.json            # Ambiente pré-configurado
-├─ notebooks/                        # 📚 Materiais do workshop
-│   └─ aula1_gerador_aleatorio.ipynb # Primeira aula
-├─ requirements.txt                  # 📦 Dependências Python
-├─ welcome.sh                       # 👋 Script de boas-vindas
-├─ .gitignore                       # 🚫 Arquivos ignorados
-└─ README.md                        # 📖 Este arquivo
+├─ .devcontainer/                        # ⚙️ Configuração do Codespace
+│   └─ devcontainer.json                 # Ambiente pré-configurado
+├─ notebooks/                            # 📚 Materiais do workshop
+│   ├─ dia1_exercicio_guiado.ipynb       # 🌟 Dia 1: Exercício com instrutor
+│   ├─ dia1_exercicio_casa.ipynb         # 🏠 Dia 1: Para casa
+│   ├─ dia2_exercicio_guiado.ipynb       # ⚡ Dia 2: Exercício com instrutor
+│   └─ dia2_exercicio_casa.ipynb         # 🏠 Dia 2: Para casa
+├─ requirements.txt                      # 📦 Dependências Python
+├─ welcome.sh                            # 👋 Script de boas-vindas
+├─ .gitignore                            # 🚫 Arquivos ignorados
+└─ README.md                             # 📖 Este arquivo
 ```
 
 ## 🎓 Conteúdo do Workshop
 
-### Aula 1: Geradores de Números Aleatórios Quânticos
-- **Conceitos básicos** de computação quântica
-- **Qubits e superposição**
-- **Porta Hadamard**
-- **Implementação prática** de geradores quânticos
-- **Análise estatística** da aleatoriedade
-- **Comparação** com geradores clássicos
-- **Exercícios práticos**
+Este workshop é organizado em **2 dias completos** com palestras, exercícios guiados e desafios para casa.
 
-### 🔮 Próximas Aulas (em desenvolvimento)
-- Algoritmo de Grover
-- Algoritmo de Shor
+---
+
+### 🌟 **DIA 1: Fundamentos da Computação Quântica**
+
+#### 📊 Palestras:
+- Qubits e estados quânticos
+- Superposição: o poder da simultaneidade
 - Entrelaçamento quântico
-- Computação quântica na nuvem
+- Medição e colapso de estado
+- Aleatoriedade quântica verdadeira
+
+#### 📓 **Exercício Guiado** - `notebooks/dia1_exercicio_guiado.ipynb`
+Trabalhe junto com o instrutor:
+- 🎯 Exercício 1: Sua primeira moeda quântica
+- 🧪 Exercício 2: Teste estatístico com 1000 jogadas
+- 🔢 Exercício 3: Gerador de números aleatórios (2-4 bits)
+- 📊 Exercício 4: Análise de distribuição (teste qui-quadrado)
+
+#### 🏠 **Para Casa** - `notebooks/dia1_exercicio_casa.ipynb`
+Pratique e consolide o aprendizado:
+- 🎲 **Desafio 1:** Dado quântico inteligente (1-6)
+- 📈 **Desafio 2:** Detetive da aleatoriedade (testes estatísticos)
+- 🎰 **Projeto Bônus:** Loteria quântica avançada
+
+---
+
+### ⚡ **DIA 2: Portas Lógicas e Circuitos Quânticos**
+
+#### � Palestras:
+- Portas lógicas quânticas fundamentais
+- CNOT e entrelaçamento controlado
+- Porta Toffoli e computação reversível
+- Rotações quânticas (RX, RY, RZ)
+- Estados de Bell e aplicações
+
+#### 📓 **Exercício Guiado** - `notebooks/dia2_exercicio_guiado.ipynb`
+Trabalhe junto com o instrutor:
+- 🔧 Exercício 1: Demonstração completa da porta CNOT
+- 🧮 Exercício 2: Implementando XOR quântico
+- 🎯 Exercício 3: AND reversível com Toffoli
+- 🎰 Exercício 4: Controle de probabilidades com rotações
+- 🧬 Exercício 5: Estados de Bell (entrelaçamento)
+
+#### 🏠 **Para Casa** - `notebooks/dia2_exercicio_casa.ipynb`
+Projetos desafiadores:
+- 🔧 **Desafio 1:** Kit completo de portas lógicas (NOT, AND, OR, XOR, NAND, NOR)
+- 🎰 **Desafio 2:** Sistema de probabilidades controladas
+- 🧬 **Desafio 3:** Estados GHZ e W (entrelaçamento multi-qubit)
+- 🏆 **Projeto Final:** Calculadora lógica quântica com somadores
+
+---
+
+### 📅 Como Seguir o Workshop
+
+**Sequência Recomendada:**
+
+1. **Dia 1 Manhã:** Palestras sobre fundamentos
+2. **Dia 1 Tarde:** `dia1_exercicio_guiado.ipynb` com instrutor
+3. **Dia 1 Noite/Casa:** `dia1_exercicio_casa.ipynb` individualmente
+4. **Dia 2 Manhã:** Palestras sobre portas lógicas
+5. **Dia 2 Tarde:** `dia2_exercicio_guiado.ipynb` com instrutor
+6. **Dia 2 Noite/Casa:** `dia2_exercicio_casa.ipynb` individualmente
 
 ## 🛠 Ambiente Pré-configurado
 

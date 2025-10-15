@@ -39,7 +39,16 @@ ENV/
 env.bak/
 venv.bak/
 
-# Codespace específico
+# VS Code (exceto configurações do Codespaces)
 .vscode/
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+*~
